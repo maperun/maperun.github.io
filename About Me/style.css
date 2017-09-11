@@ -13,11 +13,12 @@
 }
 
 body {	
-	background: black;
+	background: #181d28;
 }
 
 h1	{
 	text-align: center;
+	text-shadow: 3px 3px darkgrey;
 	font-size: 80px;
 	margin-bottom: -10px;
 }
@@ -44,6 +45,10 @@ img	{
 	float: right;
 	padding: 20px;
 	margin: 10px;	
+}
+
+.hover1 {
+	color: lightsteelblue;
 }
 
 .hover1:hover {
@@ -80,7 +85,7 @@ img {
 }
 
 .hover2:hover {
-	background-color: black;
+	background-color: #181d28;
 	color: #FFF3D9;
 }
 
