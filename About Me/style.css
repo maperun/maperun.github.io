@@ -19,6 +19,7 @@ body {
 h1	{
 	text-align: center;
 	text-shadow: 3px 3px darkgrey;
+	font-family: Georgia;
 	font-size: 80px;
 	margin-bottom: -10px;
 }
@@ -86,7 +87,7 @@ img {
 
 .hover2:hover {
 	background-color: #181d28;
-	color: #FFF3D9;
+	color: #f9f1e5;
 }
 
 @media all and (max-width: 840px) {

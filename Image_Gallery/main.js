@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
 $('img').click (function() {
-    $(this).width("40%");
+    $(this).css('width','40%');
 	});
 });
