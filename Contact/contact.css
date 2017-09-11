@@ -3,9 +3,28 @@
 body {
 	background-color: #181d28;
 	color: #f9f1e5;
-	text-align: center;
 	margin: 60px;
 	border: 1px solid #f9f1e5;
 }
+
+h1,h4 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+textarea {
+	width: 400px;
+	height: 200px;
+}
+
+@media all and (max-width: 840px) {
+	textarea {
+		width: 200px;
+		height: 100px;
+	}
+
 
 
