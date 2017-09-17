@@ -3,6 +3,7 @@
 <head>
 	<meta name="viewpoint" content="width=device-width" initial scale="1">
 	<title>Contact</title>
+	<script src="main.js"></script>
 	<link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 
@@ -12,12 +13,12 @@
 	<h4>Email: maperun@hotmail.com</h4>
 	<h4>Instagram: maperun</h4>
 
-	<div class="form">
-	<p><label>Questions or comments:</label><br>
-	<textarea type="text" name="contest entry"></textarea>
-	</p>
-	<p><input type="submit" value="Submit"></p>
-	</div>
+	<form id="comments" onsubmit="this.submit(); this.reset(); return false;">
+		<p><label>Questions or comments:</label><br>
+		<textarea type="text" name="contest entry"></textarea>
+		</p>
+		<p><input onclick="submitForm()" type="submit" value="Submit"></p>
+	</form>
 
 </body>
 </html>
