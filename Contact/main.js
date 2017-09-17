@@ -1,5 +1,5 @@
 function submitForm() {
-    alert('Received,thank you!');
+    alert('Received, thank you!');
 }
 
 
